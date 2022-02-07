@@ -1,0 +1,33 @@
+body{
+  background:url("./../../public/bg.png") no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(1px);
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* border:1px solid green */
+}
+
+.container{
+  display: grid;
+  place-content: start center;
+  width: 50vw;
+  height: 80vh;
+  justify-items: center;
+}
+
+.glassmorphism{
+  background:rgba(253, 253, 253, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(253, 253, 253, 0.2);
+  backdrop-filter: blur(1px);
+  box-shadow: 4px 4px 4px  rgba(246, 95, 128,0.3);
+}
+
+.title{
+  background: linear-gradient(to right bottom, #FF51EB,#FB76C1 ,#F69A97,#F2BF6C,#EDE342 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+}

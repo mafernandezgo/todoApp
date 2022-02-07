@@ -1,0 +1,31 @@
+li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    width: 320px;
+    height: 32px;
+    margin: 10px 0px;
+}
+
+.todo{
+    margin: 0px;
+    color: #363636;
+    text-transform: capitalize;
+}
+
+
+.iconCheck-active{
+    color:rgb(153, 204, 1);
+}
+
+
+.iconDelete{
+    color: #F69A97;
+} 
+
+.complete{
+    text-decoration: line-through;
+}

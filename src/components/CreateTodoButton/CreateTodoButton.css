@@ -1,0 +1,22 @@
+.button{
+    background: #EDE342 ;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    
+}
+
+.addTodo{
+    justify-self: end;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 10px 0px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1;
+
+}
